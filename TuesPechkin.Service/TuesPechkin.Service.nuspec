@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <!-- <version>$version$-beta</version> -->
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>TuesPechkin Service</tags>
+  </metadata>
+</package>
+
+<!-- 
+    nuget pack ./TuesPechkin.Service
+    Move-Item -force TuesPechkin.Service.*.nupkg **location**
+-->
